@@ -230,7 +230,7 @@ const AdvanceSearch = ({ carMakes, carModel, demoList, close,searchValue }) => {
                             onChange={(e) => setSearchCarName(e.target.value)}
                         />
                     </Box>
-                    <Text c="#3CDFCD" ta="center">
+                    <Text c="#2BAA9B" ta="center">
                         Or select from the filer below
                     </Text>
                 </Box>
@@ -794,7 +794,7 @@ const AdvanceSearch = ({ carMakes, carModel, demoList, close,searchValue }) => {
                 <Button
                     onClick={clearFilter}
                     variant="outline"
-                    color="#3CDFCD"
+                    color="#2BAA9B"
                     size={isSmallScreen ? 'lg' : 'sm'}
                     radius="xl"
                     px="sm"
@@ -805,7 +805,7 @@ const AdvanceSearch = ({ carMakes, carModel, demoList, close,searchValue }) => {
                 <Button
                     onClick={applyChanges}
                     variant="filled"
-                    color="#3CDFCD"
+                    color="#2BAA9B"
                     size={isSmallScreen ? 'lg' : 'sm'}
                     radius="xl"
                     px="sm"

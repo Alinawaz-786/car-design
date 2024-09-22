@@ -102,14 +102,14 @@ export default function Footer() {
                <Group justify='space-between' align='center' p={{ base: '20px 0', ms: '35px 0' }}>
                   <Box display={{ base: 'none', sm: 'block' }}></Box>
                   <Group>
-                     <Button component="a" href="#" variant="outline" color={'#3CDFCD'} c={'#fff'} radius={'xl'} size="md" ps={0}
+                     <Button component="a" href="#" variant="outline" color={'#2BAA9B'} c={'#fff'} radius={'xl'} size="md" ps={0}
                         leftSection={
                            <Image src='/assets/ic_instagram.svg' alt='icon' me={{ base: 0, sm: '5px' }} />
                         }
                      >
                         <Text>Instagram</Text>
                      </Button>
-                     <Button component="a" href="#" variant="outline" color={'#3CDFCD'} c={'#fff'} radius={'xl'} size="md" ps={0}
+                     <Button component="a" href="#" variant="outline" color={'#2BAA9B'} c={'#fff'} radius={'xl'} size="md" ps={0}
                         leftSection={
                            <Image src='/assets/ic_tiktok.svg' alt='icon' me={'4px'} />
                         }

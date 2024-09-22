@@ -150,18 +150,18 @@ const TradeAccount = ({ dark }) => {
                     </Grid.Col>
                     <Grid.Col span={{ base: 12, xs: 6 }}>
                         <Checkbox
-                            color="#3CDFCD"
+                            color="#2BAA9B"
                             variant="outline"
                             onBlur={() => form.validateField('agreement')}
                             {...form.getInputProps('agreement')}
                             label={
                                 <Text fz={14}>
                                     I accept the
-                                    <Link href="#" style={{ color: '#3CDFCD', margin: '0 4px' }}>
+                                    <Link href="#" style={{ color: '#2BAA9B', margin: '0 4px' }}>
                                         Trade Dept
                                     </Link>
                                     and that personal data will be collected and process in accordance with
-                                    <Link href="#" style={{ color: '#3CDFCD', margin: '0 4px' }}>
+                                    <Link href="#" style={{ color: '#2BAA9B', margin: '0 4px' }}>
                                         Trade Dept Privacy & Cookies Policy
                                     </Link>
                                 </Text>
@@ -170,7 +170,7 @@ const TradeAccount = ({ dark }) => {
                     </Grid.Col>
                     {/* <Grid.Col span={{ base: 12, xs: 6}}>
                         <Checkbox
-                            color="#3CDFCD"
+                            color="#2BAA9B"
                             variant="outline"
                             size="md"
                             label={

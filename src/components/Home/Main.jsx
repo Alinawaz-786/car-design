@@ -61,20 +61,19 @@ export default function MainContent({ showForm, demoList }) {
         <AdvanceSearch carMakes={carMakes} carModel={carModel} demoList={demoList} />
       </Modal>
       <BackgroundImage
-        src="/siteHome.webp"
+        src="/assets/payment-bg.png"
         radius="sm"
       >
         <Container size="lg" py={80} style={{ zIndex: 100 }}>
           <Grid style={{ background: "#0e0e0ea0", borderRadius: 30 }} py={{ base: 30, sm: 50 }} px={{ base: 10, sm: 50 }}>
             <Grid.Col span={{ base: 12, md: 6 }} order={{ base: 2, xs: 2, sm: 2, md: 1, lg: 1 }}
+            style={{ display: "flex", alignItems: "center", }}
             >
               <Box mx="left" maw={1000}>
                 <Group direction="row" px="md" pb="md">
-                  <Title order={1} fz={{ base: 24, sm: 32 }} c="white">Discover Clean and Salvage Cars at Trade Dept.</Title>
-                  <Text fz={{ base: 20, sm: 24 }} lh="sm" style={{ color: "#ffffffcc" }}>
-                    Our full-service automotive marketplace is fueled by innovative technology to provide a superior experience.
-                  </Text>
-                  <ul className="auction-steps">
+                  <Title order={1} fz={{ base: 24, sm: 32 }} c="white">Trade Department</Title>
+
+                  {/* <ul className="auction-steps">
                     <li>
                       <IconUserPlus size={38} stroke={2.5} style={{ position: "absolute", left: 7 }} />
                       <strong>Step 1: Register</strong> Sign up for a Basic, Advanced or Premium Membership
@@ -87,7 +86,7 @@ export default function MainContent({ showForm, demoList }) {
                       <IconCarSuv size={38} stroke={2} style={{ position: "absolute", left: 7 }} />
                       <strong>Step 3: BID, WIN, RIDE</strong> Bid on daily auto auctions Monday-Friday
                     </li>
-                  </ul>
+                  </ul>*/}
                 </Group>
               </Box>
             </Grid.Col>
@@ -122,8 +121,8 @@ export default function MainContent({ showForm, demoList }) {
                   w={{ base: 'calc(50% - 5px)', sm: 'calc(33% - 5px)', md: 'auto' }}
                 />
                 <Group wrap='nowrap' gap='xs'>
-                  <Button variant="filled" color="#3CDFCD" c={'#000'} radius="xl" px='sm' onClick={searchCars}>Search Cars</Button>
-                  <Button variant="outline" color="#3CDFCD" c={'#fff'} radius="xl" px='sm'
+                  <Button variant="filled" color="#26A69A" c={'#000'} radius="xl" px='sm' onClick={searchCars}>Search Cars</Button>
+                  <Button variant="outline" color="#26A69A" c={'#fff'} radius="xl" px='sm'
                     onClick={() => open()}
                   >
                     Advance Search

@@ -2,9 +2,8 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/contact-us": "pages/contact-us.js",
   "/": "pages/index.js",
-  "/signin": "pages/signin.js",
+  "/signup": "pages/signup.js",
   "/api/cars": "pages/api/cars.js",
   "/api/auth/[...nextauth]": "pages/api/auth/[...nextauth].js"
 }

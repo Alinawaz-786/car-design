@@ -6,7 +6,7 @@ const WithHightway18 = () => {
         <BackgroundImage src='/assets/highway-18-sec-bg.png' c='white' pos={'relative'}>
             <Container size="lg" py={{ base: 60, md: 80 }} style={{ zIndex: 100 }}>
                 <Title order={2} ta='center' fz={{ base: 32, sm: 40, lg: 45 }} mb={{ base: 10, md: 15 }}>
-                    With Trade Dept, <Text component="span" fw={700} c='#3CDFCD' fz={'inherit'}>It's Simple</Text>
+                    With Trade Dept, <Text component="span" fw={700} c='#2BAA9B' fz={'inherit'}>It's Simple</Text>
                 </Title>
                 <Text ta='center' fz={18}>The number of cross-platform visits to our website each month*</Text>
                 <Grid mt={{ base: 30, sm: 40, lg: 60 }}>

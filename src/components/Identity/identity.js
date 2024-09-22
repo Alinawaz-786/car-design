@@ -280,7 +280,7 @@ const Identity = ({ close }) => {
         >
           Cancel
         </Button>
-        <Button onClick={handleSubmit} color="#3CDFCD" w="150" radius="xl">
+        <Button onClick={handleSubmit} color="#2BAA9B" w="150" radius="xl">
           {loading ? "Uploading..." : "Submit"}
         </Button>
       </Group>

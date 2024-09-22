@@ -12,7 +12,7 @@ function UserInfoForm(props) {
   const [userStatus, setUserStatus] = useState(status);
 
   return (
-    <MantineProvider defaultColorScheme="dark">
+    <MantineProvider forceColorScheme="light">
       <form>
         <Grid>
           <Grid.Col span={{ base: 12, md: 6 }}>

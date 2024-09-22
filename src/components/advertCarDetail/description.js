@@ -36,7 +36,7 @@ const Description = ({ dark,carData }) => {
 
     return (
         <Container size='md' c={dark ? '#fff' : '#000'} pb={{ base: 60, md: 100 }} ta='center'>
-            <Title order={2} fz={{ base: 32, sm: 40, lg: 45 }} mb={10} c='#3CDFCD'>Description</Title>
+            <Title order={2} fz={{ base: 32, sm: 40, lg: 45 }} mb={10} c='#2BAA9B'>Description</Title>
             <Text fz={{ base: 20, md: 24 }} mb={{ base: 30, md: 40 }}>You have not added a description yet. Cars with detailed description sell quicker.</Text>
             <form onSubmit={form.onSubmit(updateDescription)}>
             <Textarea
@@ -50,7 +50,7 @@ const Description = ({ dark,carData }) => {
                 rightSectionWidth={120}
                 rightSection={
                     <>
-                        <Button loading={loader} color='#3CDFCD' c='#000' size='lg' radius='xl' type='submit'>
+                        <Button loading={loader} color='#2BAA9B' c='#000' size='lg' radius='xl' type='submit'>
                             Save
                         </Button>
                     </>

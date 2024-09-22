@@ -68,10 +68,10 @@ export const HeaderNavList = {
       title: "My Cars",
       link: "/mycars",
     },
-    {
-      title: "Auction",
-      link: "/auction",
-    },
+    // {
+    //   title: "Auction",
+    //   link: "/auction",
+    // },
     {
       title: "Marketplace",
       link: "/marketplace",
@@ -90,10 +90,10 @@ export const HeaderNavList = {
       title: "My Cars",
       link: "/mycars",
     },
-    {
-      title: "Auction",
-      link: "/auction",
-    },
+    // {
+    //   title: "Auction",
+    //   link: "/auction",
+    // },
     {
       title: "Marketplace",
       link: "/marketplace",
@@ -112,10 +112,10 @@ export const HeaderNavList = {
       title: "My Cars",
       link: "/mycars",
     },
-    {
-      title: "Auction",
-      link: "/auction",
-    },
+    // {
+    //   title: "Auction",
+    //   link: "/auction",
+    // },
     {
       title: "Marketplace",
       link: "/marketplace",
@@ -134,10 +134,10 @@ export const HeaderNavList = {
       title: "Marketplace",
       link: "/marketplace",
     },
-    {
-      title: "Auction",
-      link: "/auction",
-    },
+    // {
+    //   title: "Auction",
+    //   link: "/auction",
+    // },
     {
       title: "How it Works?",
       link: "/#howItWorks",

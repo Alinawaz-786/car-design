@@ -78,7 +78,7 @@ export default function AuthHeader({ openProfile, openAddress }) {
                     </Link>
                   ))}
                 </Group>
-                <Button visibleFrom="md" component={Link} href={userService?.userValue ? '/sell-car' : '/create-advert'} variant="outline" color='#3CDFCD' c={dark ? '#fff' : '#3CDFCD'} radius='xl'>Sell Your Car</Button>
+                <Button visibleFrom="md" component={Link} href={userService?.userValue ? '/sell-car' : '/create-advert'} variant="outline" color='#2BAA9B' c={dark ? '#fff' : '#2BAA9B'} radius='xl'>Sell Your Car</Button>
                 <Group wrap='nowarp'>
                   <Container size="md" p={0}>
                     <Group justify="space-between">

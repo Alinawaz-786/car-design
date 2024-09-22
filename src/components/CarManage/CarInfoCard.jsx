@@ -120,7 +120,7 @@ export function CarInfoCard(props) {
                     {make} {model} {engine}
                   </Text>
                 </div>
-                <IconHeart stroke={1.5} color="#3CDFCD" />
+                <IconHeart stroke={1.5} color="#2BAA9B" />
               </Group>
               <Flex justify="space-between" align="center">
                 <Group grow>
@@ -145,7 +145,7 @@ export function CarInfoCard(props) {
                   p={5}
                   className={classes.iconWrapper}
                 >
-                  <IconUser size="1.2rem" stroke={1.5} color="#3CDFCD" />
+                  <IconUser size="1.2rem" stroke={1.5} color="#2BAA9B" />
                   <Divider orientation="vertical" />
                   <Text size="0.9rem" c="ocean-blue">
                     {seats} passengers
@@ -157,7 +157,7 @@ export function CarInfoCard(props) {
                   p={5}
                   className={classes.iconWrapper}
                 >
-                  <IconGauge size="1.2rem" stroke={1.5} color="#3CDFCD" />
+                  <IconGauge size="1.2rem" stroke={1.5} color="#2BAA9B" />
                   <Divider orientation="vertical" />
                   <Text size="0.9rem" c="ocean-blue">
                     {currencyFormater(mileage)} KM
@@ -166,7 +166,7 @@ export function CarInfoCard(props) {
               </Group>
               <Flex gap="5px" justify="space-between">
                 <Stack justify="space-between" gap="3">
-                  <Text c="#3CDFCD">Bid End</Text>
+                  <Text c="#2BAA9B">Bid End</Text>
                   {status != "ENDED" && status != "PAID" && timeElapsed > 0 ? (
                     <Group gap="5">
                       <IconClockHour4 size="1.2rem" />
@@ -188,7 +188,7 @@ export function CarInfoCard(props) {
                 </Stack>
                 <Divider orientation="vertical" />
                 <Stack justify="end" gap="3">
-                  <Text c="#3CDFCD" align="end">
+                  <Text c="#2BAA9B" align="end">
                     Current Offer
                   </Text>
                   <Group
@@ -246,7 +246,7 @@ export function CarInfoCard(props) {
                     {make} {model} {engine} {" "}
                   </Text>
                 </Box>
-                <IconHeart stroke={1.5} color="#3CDFCD" />
+                <IconHeart stroke={1.5} color="#2BAA9B" />
               </Group>
               <Flex
                 justify="space-between"
@@ -285,7 +285,7 @@ export function CarInfoCard(props) {
                   p={5}
                   className={classes.iconWrapper}
                 >
-                  <IconUser size="1.2rem" stroke={1.5} color="#3CDFCD" />
+                  <IconUser size="1.2rem" stroke={1.5} color="#2BAA9B" />
                   <Divider orientation="vertical" />
                   <Text size="0.9rem">{seats} passengers</Text>
                 </Group>
@@ -295,7 +295,7 @@ export function CarInfoCard(props) {
                   p={5}
                   className={classes.iconWrapper}
                 >
-                  <IconGauge size="1.2rem" stroke={1.5} color="#3CDFCD" />
+                  <IconGauge size="1.2rem" stroke={1.5} color="#2BAA9B" />
                   <Divider orientation="vertical" />
                   <Text size="0.9rem">{currencyFormater(mileage)} KM</Text>
                 </Group>
@@ -313,7 +313,7 @@ export function CarInfoCard(props) {
                   p={5}
                   className={classes.iconWrapper}
                 >
-                  <IconCalendar size="1.2rem" stroke={1.5} color="#3CDFCD" />
+                  <IconCalendar size="1.2rem" stroke={1.5} color="#2BAA9B" />
                   <Divider orientation="vertical" />
                   <Text size="0.9rem">{year} Year</Text>
                 </Group>
@@ -323,7 +323,7 @@ export function CarInfoCard(props) {
                   p={5}
                   className={classes.iconWrapper}
                 >
-                  <IconEngine size="1.2rem" stroke={1.5} color="#3CDFCD" />
+                  <IconEngine size="1.2rem" stroke={1.5} color="#2BAA9B" />
                   <Divider orientation="vertical" />
                   <Text size="0.9rem">{fuelType}</Text>
                 </Group>
@@ -331,7 +331,7 @@ export function CarInfoCard(props) {
               <Divider my={15} />
               <Flex px="md" gap="5px" justify="space-between">
                 <Stack justify="space-between" gap="3">
-                  <Text c="#3CDFCD">Bid End</Text>
+                  <Text c="#2BAA9B">Bid End</Text>
                   {status != "ENDED" && status != "PAID" && timeElapsed > 0 ? (
                     <Group gap="5">
                       <IconClockHour4 size="1.2rem" />
@@ -353,7 +353,7 @@ export function CarInfoCard(props) {
                 </Stack>
                 <Divider orientation="vertical" />
                 <Stack justify="end" gap="3">
-                  <Text c="#3CDFCD" align="end">
+                  <Text c="#2BAA9B" align="end">
                     Current Offer
                   </Text>
                   <Group
@@ -373,7 +373,7 @@ export function CarInfoCard(props) {
                 </Stack>
               </Flex>
             </Card.Section>
-            <Button fullWidth bg="#3CDFCD" c='#000'>
+            <Button fullWidth bg="#2BAA9B" c='#000'>
               {"View Auction"}
             </Button>
           </Stack>

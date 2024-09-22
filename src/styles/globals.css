@@ -35,13 +35,13 @@
   --callout-border-rgb: 172, 175, 176;
   --card-rgb: 180, 185, 188;
   --card-border-rgb: 131, 134, 135;
-  --mantine-primary-color-filled: #3CDFCD !important;
+  --mantine-primary-color-filled: #2BAA9B !important;
   --mantine-primary-color-filled-hover: #01d1b9 !important;
-  --mantine-color-ocean-blue-text: #3CDFCD !important;
-  --mantine-color-ocean-blue-filled: #3CDFCD !important;
-  --button-color: #3CDFCD !important;
-  --button-bd: #3CDFCD !important;
-  --input-asterisk-color: #3CDFCD !important;
+  --mantine-color-ocean-blue-text: #2BAA9B !important;
+  --mantine-color-ocean-blue-filled: #2BAA9B !important;
+  --button-color: #2BAA9B !important;
+  --button-bd: #2BAA9B !important;
+  --input-asterisk-color: #2BAA9B !important;
   --pagination-active-color: #000 !important;
   /* --sa-corner-width: 0px !important;
   --sa-corner-height: 0px !important; */
@@ -746,7 +746,7 @@ button.bg-azure:hover {
 }
 
 .bid-number input {
-  border: 1px solid #3CDFCD;
+  border: 1px solid #2BAA9B;
 }
 .bid-number input::-webkit-outer-spin-button,
 .bid-number input::-webkit-inner-spin-button {
@@ -809,7 +809,7 @@ button.bg-azure:hover {
   text-align: center;
   /* background-color: #FFFFFF; */
   box-shadow: 0px 3px 6px #00000029;
-  border: 4px solid #3CDFCD;
+  border: 4px solid #2BAA9B;
   border-radius: 13px;
 }
 .img-input .mantine-FileInput-section{
@@ -906,7 +906,7 @@ button.bg-azure:hover {
   }
 }
 .gallery-tabs .mantine-Tabs-list{
-  background-color: #3CDFCD;
+  background-color: #2BAA9B;
   justify-content: space-between;
   /* gap: 20px 0; */
   width: 150px;
@@ -952,7 +952,7 @@ button.bg-azure:hover {
   background-color: transparent;
 }
 .gallery-tabs .mantine-Tabs-tab:hover .icon, .gallery-tabs .mantine-Tabs-tab[data-active="true"] .icon{
-  border-color: #3CDFCD;
+  border-color: #2BAA9B;
   background-color: #141414;
 }
 .gallery-tabs .mantine-Tabs-tab:hover .icon img, .gallery-tabs .mantine-Tabs-tab[data-active="true"] .icon img{
@@ -1019,10 +1019,10 @@ button.bg-azure:hover {
 }
 
 .thumbnails-wrapper .thumbnail.active {
-  border-color: #3CDFCD; /* Highlight the active thumbnail */
+  border-color: #2BAA9B; /* Highlight the active thumbnail */
 }
 .image-gallery-icon:hover{
-  color: #3CDFCD;
+  color: #2BAA9B;
 }
 /* .search_modal .mantine-Overlay-root{
   z-index: 9999;
@@ -1068,7 +1068,7 @@ button.bg-azure:hover {
   position: absolute;
   width: 12px;
   height: 12px;
-  background-color: #3CDFCD;
+  background-color: #2BAA9B;
   border-radius: 50%;
   left: 50%;
   top: 50%;
@@ -1098,7 +1098,7 @@ button.bg-azure:hover {
 }
 .steps-number .mantine-Text-root:not(:last-child)::after{
   content: '';
-  border: 2px dashed #3CDFCD;
+  border: 2px dashed #2BAA9B;
   position: absolute;
   top: 50%;
   left: calc( 100% + 30px);
@@ -1127,7 +1127,7 @@ button.bg-azure:hover {
     left: 25px;
     top: 20px;
     height: calc(100% - 40px);
-    border: 2px dashed #3CDFCD;
+    border: 2px dashed #2BAA9B;
   }
 }
 .header-search .mantine-Input-section[data-position="right"]{

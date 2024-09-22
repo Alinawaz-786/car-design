@@ -8,7 +8,7 @@ const GuidesToSelling = ({ dark }) => {
     return (
         <Container size="lg" c={dark ? '#fff' : '#000'} py={{ base: 60, md: 80 }} style={{ zIndex: 100 }}>
             <Title order={2} ta='center' fz={{ base: 32, sm: 40, lg: 45 }} mb={{ base: 30, sm: 40, md: 60 }}>
-                Guides To Selling <Text component="span" fw={700} c='#3CDFCD' fz={'inherit'}>Your Car</Text>
+                Guides To Selling <Text component="span" fw={700} c='#2BAA9B' fz={'inherit'}>Your Car</Text>
             </Title>
             <Group wrap='wrap'>
                 <Group display={{ base: 'none', sm: 'flex' }} gap={{ base: 60, md: 40 }} className='steps-number' justify='space-around' w={{ base: 60, sm: '100%' }} >

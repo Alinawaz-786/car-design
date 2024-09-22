@@ -302,7 +302,7 @@ const AdvertisingPrices = ({ dark }) => {
                         <Button
                             type="submit"
                             fullWidth
-                            color='#3CDFCD'
+                            color='#2BAA9B'
                             c='#000'
                             radius="xl"
                             size="md"
@@ -318,12 +318,12 @@ const AdvertisingPrices = ({ dark }) => {
             </Modal>
             <Container size="xl" py={{ base: '60', sm: '80' }} c={dark ? '#fff' : '#000'}>
                 <Title order={2} ta='center' fz={{ base: 32, sm: 40, lg: 45 }} mb={{ base: 30, sm: 60, md: 80 }}>
-                    Advertising <Text component="span" fw={700} c='#3CDFCD' fz={'inherit'}>Prices</Text>
+                    Advertising <Text component="span" fw={700} c='#2BAA9B' fz={'inherit'}>Prices</Text>
                 </Title>
                 <Grid gutter={{ base: 20, lg: 0 }} c={dark ? 'white' : '#000'} justify='center'>
                     <Grid.Col span={{ base: 12, sm: 6, lg: 3 }} ta={'center'} style={{ transform: matches ? 'scale(1)' : 'scale(1.08)', zIndex: 10 }}>
                         <Box bg={dark ? '#141414' : '#fff'} bd='1px solid #707070' pb={40} style={{ borderRadius: '30px', overflow: 'hidden' }}>
-                            <Box bg={'#3CDFCD'} h={{ base: 140, sm: 175 }} p={{ base: '20 10', sm: '30 20' }} pos={'relative'} style={{ borderRadius: '30px' }}>
+                            <Box bg={'#2BAA9B'} h={{ base: 140, sm: 175 }} p={{ base: '20 10', sm: '30 20' }} pos={'relative'} style={{ borderRadius: '30px' }}>
                                 <Title order={4} fz={30} c={'#06070A'}>Simple</Title>
                                 <Box bg={'#FFFFFF'} bd='1px solid #C9C9C9' w={{ base: '100', sm: '135' }} h={{ base: '100', sm: '135' }} left={'50%'} bottom={{ base: '-40%', sm: '-50%' }} pos={'absolute'} style={{ borderRadius: '50%', transform: 'translate( -50%, -20%)' }} p={{ base: '20 10', sm: '30 20' }}>
                                     <Text component='span' c={'#06070A'} fw={700} fz={{ base: 30, sm: 40 }} lh={1}>€ 9</Text>
@@ -335,7 +335,7 @@ const AdvertisingPrices = ({ dark }) => {
                                 <Text fz={16}>Stand out with photos in search results</Text>
                                 <Text fz={16}>1 car for Euro 9</Text>
                             </Stack>
-                            <Button variant='filled' color='#3CDFCD' c="#0C0000" size='md' radius='xl' onClick={() => openModel({ price: 25, description: "2 to 5 for each Euro 5 for each", type: "Premium", carCount: 5 })}>Buy Now</Button>
+                            <Button variant='filled' color='#2BAA9B' c="#0C0000" size='md' radius='xl' onClick={() => openModel({ price: 25, description: "2 to 5 for each Euro 5 for each", type: "Premium", carCount: 5 })}>Buy Now</Button>
                         </Box>
                     </Grid.Col>
                     <Grid.Col span={{ base: 12, sm: 6, lg: 3 }} ta={'center'}>
@@ -352,12 +352,12 @@ const AdvertisingPrices = ({ dark }) => {
                                 <Text fz={16}>Stand out with photos in search results</Text>
                                 <Text fz={16}>1 car for Euro 9</Text>
                             </Stack>
-                            <Button variant='outline' color='#3CDFCD' size='md' radius='xl' onClick={() => openModel({ price: 9, description: "1 car for Euro 9", type: "Basic", carCount: 1 })}>Buy Now</Button>
+                            <Button variant='outline' color='#2BAA9B' size='md' radius='xl' onClick={() => openModel({ price: 9, description: "1 car for Euro 9", type: "Basic", carCount: 1 })}>Buy Now</Button>
                         </Box>
                     </Grid.Col>
                     <Grid.Col span={{ base: 12, sm: 6, lg: 3 }} ta={'center'} style={{ transform: matches ? 'scale(1)' : 'scale(1.08)', zIndex: 10 }}>
                         <Box bg={dark ? '#141414' : '#fff'} bd='1px solid #707070' pb={40} style={{ borderRadius: '30px', overflow: 'hidden' }}>
-                            <Box bg={'#3CDFCD'} h={{ base: 140, sm: 175 }} p={{ base: '20 10', sm: '30 20' }} pos={'relative'} style={{ borderRadius: '30px' }}>
+                            <Box bg={'#2BAA9B'} h={{ base: 140, sm: 175 }} p={{ base: '20 10', sm: '30 20' }} pos={'relative'} style={{ borderRadius: '30px' }}>
                                 <Title order={4} fz={30} c={'#06070A'}>Premium</Title>
                                 <Box bg={'#FFFFFF'} bd='1px solid #C9C9C9' w={{ base: '100', sm: '135' }} h={{ base: '100', sm: '135' }} left={'50%'} bottom={{ base: '-40%', sm: '-50%' }} pos={'absolute'} style={{ borderRadius: '50%', transform: 'translate( -50%, -20%)' }} p={{ base: '20 10', sm: '30 20' }}>
                                     <Text component='span' c={'#06070A'} fw={700} fz={{ base: 30, sm: 40 }} lh={1}>€ 5</Text>
@@ -369,7 +369,7 @@ const AdvertisingPrices = ({ dark }) => {
                                 <Text fz={16}>Stand out with photos in search results</Text>
                                 <Text fz={16}>2 to 5 for each Euro 5 for each</Text>
                             </Stack>
-                            <Button variant='filled' color='#3CDFCD' c="#0C0000" size='md' radius='xl' onClick={() => openModel({ price: 25, description: "2 to 5 for each Euro 5 for each", type: "Premium", carCount: 5 })}>Buy Now</Button>
+                            <Button variant='filled' color='#2BAA9B' c="#0C0000" size='md' radius='xl' onClick={() => openModel({ price: 25, description: "2 to 5 for each Euro 5 for each", type: "Premium", carCount: 5 })}>Buy Now</Button>
                         </Box>
                     </Grid.Col>
                     <Grid.Col span={{ base: 12, sm: 6, lg: 3 }} ta={'center'}>
@@ -388,7 +388,7 @@ const AdvertisingPrices = ({ dark }) => {
                             </Stack>
                             {/* {userService?.userValue?.role=="TRADER" && ( */}
 
-                            <Button variant='outline' color='#3CDFCD' size='md' radius='xl' onClick={() => openModel({ price: 12, description: "More then 5 car", type: "Trader", carCount: 10 })} >Buy Now</Button>
+                            <Button variant='outline' color='#2BAA9B' size='md' radius='xl' onClick={() => openModel({ price: 12, description: "More then 5 car", type: "Trader", carCount: 10 })} >Buy Now</Button>
                             {/* )} */}
                         </Box>
                     </Grid.Col>

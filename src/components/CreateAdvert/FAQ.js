@@ -39,7 +39,7 @@ const FAQ = ({dark}) => {
     return (
         <Container size="sm" pb={{base: 60, md: 80}} c={dark ? '#fff' : '#000'}>
             <Title order={2} ta='center' fz={{base: 32, sm: 40, lg: 45}} mb={{ base: 30, md: 60}}>
-                Your Questions <Text component="span" fw={700} c='#3CDFCD' fz={'inherit'}>Answer</Text>
+                Your Questions <Text component="span" fw={700} c='#2BAA9B' fz={'inherit'}>Answer</Text>
             </Title>
             <Accordion variant="contained" defaultValue="Why sell my car with Trade Dept?">
                 {items}

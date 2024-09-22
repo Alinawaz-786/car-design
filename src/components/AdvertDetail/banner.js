@@ -381,7 +381,7 @@ const Banner = ({ dark }) => {
                     <Button
                         type="submit"
                         fullWidth
-                        color='#3CDFCD'
+                        color='#2BAA9B'
                         c='#000'
                         radius="xl"
                         size="md"

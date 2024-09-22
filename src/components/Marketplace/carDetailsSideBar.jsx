@@ -50,7 +50,7 @@ import { replaceBaseUrl } from "@/helpers";
 
 function CarSideBar({ car, fakeView, getCarDetails }) {
   const theme = useMantineTheme();
-  const primaryColor = theme.colorScheme === "dark" ? "#3CDFCD" : "#3CDFCD";
+  const primaryColor = theme.colorScheme === "dark" ? "#2BAA9B" : "#2BAA9B";
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -63,7 +63,7 @@ function CarSideBar({ car, fakeView, getCarDetails }) {
   }, []);
 
   return (
-    <MantineProvider defaultColorScheme="dark">
+    <MantineProvider forceColorScheme="light">
       <Grid.Col span={{ base: 12, md: 4 }}>
         <Card withBorder mx={{ sm: "sm" }} radius="lg" shadow="sm">
           <Card.Section withBorder inheritPadding py="xl">
@@ -264,7 +264,7 @@ function CarSideBar({ car, fakeView, getCarDetails }) {
                             <ThemeIcon color={primaryColor} variant="light" >
                                 <IconPhoneCall size={30} />
                             </ThemeIcon>
-                            <Text c="#3CDFCD">{car?.phoneNumber}</Text>
+                            <Text c="#2BAA9B">{car?.phoneNumber}</Text>
                         </Link> */}
           </Card.Section>
         </Card>

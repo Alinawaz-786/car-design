@@ -33,7 +33,7 @@
     &::after {
       content: '';
       display: block;
-      background-color: #3CDFCD;
+      background-color: #2BAA9B;
       width: rem(45px);
       height: rem(2px);
       margin-top: var(--mantine-spacing-sm);

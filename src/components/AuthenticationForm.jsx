@@ -530,7 +530,7 @@ function SignUpForm({ referalCode, email, fullName }) {
                   pt={{ base: "50px", md: "120px" }}
                   px={{ base: "30px", sm: "50px" }}
                   pb={{ base: "50px", md: "80px" }}
-                  bg="linear-gradient(180deg, #3CDFCD 0%, #272B3D 100%, #D6D6D6 100%)"
+                  bg="linear-gradient(180deg, #2BAA9B 0%, #272B3D 100%, #D6D6D6 100%)"
                 >
                   <Box maw={{ base: "400px", md: "100%" }} m="0 auto">
                     <Image src="/assets/create-account.png" alt="image" />
@@ -707,7 +707,7 @@ function SignUpForm({ referalCode, email, fullName }) {
                   pt={{ base: "50px", md: "120px" }}
                   px={{ base: "30px", sm: "50px" }}
                   pb={{ base: "50px", md: "80px" }}
-                  bg="linear-gradient(180deg, #3CDFCD 0%, #272B3D 100%, #D6D6D6 100%)"
+                  bg="linear-gradient(180deg, #2BAA9B 0%, #272B3D 100%, #D6D6D6 100%)"
                 >
                   <Box maw={{ base: "400px", md: "100%" }} m="0 auto">
                     <Image src="/assets/send-mail.png" alt="image" />
@@ -893,7 +893,7 @@ function SignUpForm({ referalCode, email, fullName }) {
                   pt={{ base: "50px", md: "120px" }}
                   px={{ base: "30px", sm: "50px" }}
                   pb={{ base: "50px", md: "80px" }}
-                  bg="linear-gradient(180deg, #3CDFCD 0%, #272B3D 100%, #D6D6D6 100%)"
+                  bg="linear-gradient(180deg, #2BAA9B 0%, #272B3D 100%, #D6D6D6 100%)"
                 >
                   <Box maw={{ base: "400px", md: "100%" }} m="0 auto">
                     <Image src="/assets/verify-number.png" alt="image" />
@@ -1068,7 +1068,7 @@ function SignUpForm({ referalCode, email, fullName }) {
                   pt={{ base: "50px", md: "120px" }}
                   px={{ base: "30px", sm: "50px" }}
                   pb={{ base: "50px", md: "80px" }}
-                  bg="linear-gradient(180deg, #3CDFCD 0%, #272B3D 100%, #D6D6D6 100%)"
+                  bg="linear-gradient(180deg, #2BAA9B 0%, #272B3D 100%, #D6D6D6 100%)"
                 >
                   <Box maw={{ base: "400px", md: "100%" }} m="0 auto">
                     <Image src="/assets/send-mail.png" alt="image" />
@@ -1247,7 +1247,7 @@ function SignUpForm({ referalCode, email, fullName }) {
                   pt={{ base: "50px", md: "120px" }}
                   px={{ base: "30px", sm: "50px" }}
                   pb={{ base: "50px", md: "80px" }}
-                  bg="linear-gradient(180deg, #3CDFCD 0%, #272B3D 100%, #D6D6D6 100%)"
+                  bg="linear-gradient(180deg, #2BAA9B 0%, #272B3D 100%, #D6D6D6 100%)"
                 >
                   <Box maw={{ base: "400px", md: "100%" }} m="0 auto">
                     <Image src="/assets/terms-condition.png" alt="image" />
@@ -1328,7 +1328,7 @@ function SignUpForm({ referalCode, email, fullName }) {
             </Stepper.Step>
             <Stepper.Completed>
               <Grid align="center">
-                <Grid.Col order={{ base: 2, md: 1 }} span={{ base: 12, md: 5 }} pt={{ base: "50px", md: "120px" }} px={{ base: "30px", sm: "50px" }} pb={{ base: "50px", md: "80px" }} bg="linear-gradient(180deg, #3CDFCD 0%, #272B3D 100%, #D6D6D6 100%)">
+                <Grid.Col order={{ base: 2, md: 1 }} span={{ base: 12, md: 5 }} pt={{ base: "50px", md: "120px" }} px={{ base: "30px", sm: "50px" }} pb={{ base: "50px", md: "80px" }} bg="linear-gradient(180deg, #2BAA9B 0%, #272B3D 100%, #D6D6D6 100%)">
                   <Box maw={{ base: "400px", md: "100%" }} m="0 auto">
                     <Image src="/assets/signup-complete.png" alt="image" />
                   </Box>

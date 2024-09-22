@@ -73,7 +73,7 @@ export function CarInfoCard(props) {
                     {make} {model} {engine}
                   </Text>
                 </div>
-                <IconHeart stroke={1.5} color="#3CDFCD" />
+                <IconHeart stroke={1.5} color="#2BAA9B" />
               </Group>
               <Flex justify="space-between" align="center">
                 <Group grow>
@@ -98,7 +98,7 @@ export function CarInfoCard(props) {
                   p={5}
                   className={classes.iconWrapper}
                 >
-                  <IconUser size="1.2rem" stroke={1.5} color="#3CDFCD" />
+                  <IconUser size="1.2rem" stroke={1.5} color="#2BAA9B" />
                   <Divider orientation="vertical" />
                   <Text size="0.9rem" c="ocean-blue">
                     {seats} passengers
@@ -110,7 +110,7 @@ export function CarInfoCard(props) {
                   p={5}
                   className={classes.iconWrapper}
                 >
-                  <IconGauge size="1.2rem" stroke={1.5} color="#3CDFCD" />
+                  <IconGauge size="1.2rem" stroke={1.5} color="#2BAA9B" />
                   <Divider orientation="vertical" />
                   <Text size="0.9rem" c="ocean-blue">
                     {currencyFormater(mileage)} KM
@@ -155,7 +155,7 @@ export function CarInfoCard(props) {
                     {make} {model} {engine}{" "}
                   </Text>
                 </Box>
-                <IconHeart stroke={1.5} color="#3CDFCD" />
+                <IconHeart stroke={1.5} color="#2BAA9B" />
               </Group>
               <Flex
                 justify="space-between"
@@ -194,7 +194,7 @@ export function CarInfoCard(props) {
                   p={5}
                   className={classes.iconWrapper}
                 >
-                  <IconUser size="1.2rem" stroke={1.5} color="#3CDFCD" />
+                  <IconUser size="1.2rem" stroke={1.5} color="#2BAA9B" />
                   <Divider orientation="vertical" />
                   <Text size="0.9rem">{seats} passengers</Text>
                 </Group>
@@ -204,7 +204,7 @@ export function CarInfoCard(props) {
                   p={5}
                   className={classes.iconWrapper}
                 >
-                  <IconGauge size="1.2rem" stroke={1.5} color="#3CDFCD" />
+                  <IconGauge size="1.2rem" stroke={1.5} color="#2BAA9B" />
                   <Divider orientation="vertical" />
                   <Text size="0.9rem">{currencyFormater(mileage)} KM</Text>
                 </Group>
@@ -222,7 +222,7 @@ export function CarInfoCard(props) {
                   p={5}
                   className={classes.iconWrapper}
                 >
-                  <IconCalendar size="1.2rem" stroke={1.5} color="#3CDFCD" />
+                  <IconCalendar size="1.2rem" stroke={1.5} color="#2BAA9B" />
                   <Divider orientation="vertical" />
                   <Text size="0.9rem">{year} Year</Text>
                 </Group>
@@ -232,7 +232,7 @@ export function CarInfoCard(props) {
                   p={5}
                   className={classes.iconWrapper}
                 >
-                  <IconEngine size="1.2rem" stroke={1.5} color="#3CDFCD" />
+                  <IconEngine size="1.2rem" stroke={1.5} color="#2BAA9B" />
                   <Divider orientation="vertical" />
                   <Text size="0.9rem">{fuelType}</Text>
                 </Group>

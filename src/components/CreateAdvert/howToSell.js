@@ -7,11 +7,11 @@ const HowToSell = ({dark}) => {
             <BackgroundImage src='/assets/how-to-sell-bg.png'>
                 <Container size="lg" py={{ base: '30 60', sm: '40 60', md: 80}} style={{ zIndex: 100 }}>
                     <Title order={2} ta='center' fz={{base: 32, sm: 40, lg: 45}} mb={{base: 25, sm: 40, lg: 60}} c={dark ? '#fff' : '#000'}>
-                        How To Sell <Text component="span" fw={700} c='#3CDFCD' fz={'inherit'}>Your Car,Fast</Text>
+                        How To Sell <Text component="span" fw={700} c='#2BAA9B' fz={'inherit'}>Your Car,Fast</Text>
                     </Title>
                     <Grid gutter={{base: 20, lg: 50}} c={ dark ? '#fff' : '#06070A'} justify='center'>
                         <Grid.Col span={{ xs: 6, md: 4}} mt={{md: 50}}>
-                            <Card c={ dark ? '#fff' : '#06070A'} bg={ dark ? '#141414' : '#FFFFFF'} p={{ base: '20 15 25', md: '25 25 40'}} ta='center' bd={ dark ? '1px solid #575757' : '0'} style={{ borderRadius: '4px', boxShadow: '0px 3px 6px #00000029', borderBottom: '4px solid #3CDFCD !important' }}>
+                            <Card c={ dark ? '#fff' : '#06070A'} bg={ dark ? '#141414' : '#FFFFFF'} p={{ base: '20 15 25', md: '25 25 40'}} ta='center' bd={ dark ? '1px solid #575757' : '0'} style={{ borderRadius: '4px', boxShadow: '0px 3px 6px #00000029', borderBottom: '4px solid #2BAA9B !important' }}>
                                 <Image src='/assets/ic_photo.png' w={{base: 60, md: 100}} h={{base: 60, md: 100}} mx={'auto'} mb={20} />
                                 <Title order={4} fz={{base: 20, md: 24}} lh={1.3} mb={'xs'}>
                                     Take Great Photos
@@ -22,7 +22,7 @@ const HowToSell = ({dark}) => {
                             </Card>
                         </Grid.Col>
                         <Grid.Col span={{ xs: 6, md: 4}}>
-                            <Card c={ dark ? '#fff' : '#06070A'} bg={ dark ? '#141414' : '#FFFFFF'} p={{ base: '20 15 25', md: '25 25 40'}} ta='center' bd={ dark ? '1px solid #575757' : '0'} style={{ borderRadius: '4px', boxShadow: '0px 3px 6px #00000029', borderBottom: '4px solid #3CDFCD !important' }}>
+                            <Card c={ dark ? '#fff' : '#06070A'} bg={ dark ? '#141414' : '#FFFFFF'} p={{ base: '20 15 25', md: '25 25 40'}} ta='center' bd={ dark ? '1px solid #575757' : '0'} style={{ borderRadius: '4px', boxShadow: '0px 3px 6px #00000029', borderBottom: '4px solid #2BAA9B !important' }}>
                                 <Image src='/assets/ic_snappy.png' w={{base: 60, md: 100}} h={{base: 60, md: 100}} mx={'auto'} mb={20} />
                                 <Title order={4} fz={{base: 20, md: 24}} lh={1.3} mb={'xs'}>
                                     Keep It Snappy
@@ -33,7 +33,7 @@ const HowToSell = ({dark}) => {
                             </Card>
                         </Grid.Col>
                         <Grid.Col span={{ xs: 6, md: 4}} mt={{md: 50}}>
-                            <Card c={ dark ? '#fff' : '#06070A'} radius={20} bg={ dark ? '#141414' : '#FFFFFF'} p={{ base: '20 15 25', md: '25 25 40'}} ta='center' bd={ dark ? '1px solid #575757' : '0'} style={{ borderRadius: '4px', boxShadow: '0px 3px 6px #00000029', borderBottom: '4px solid #3CDFCD !important' }}>
+                            <Card c={ dark ? '#fff' : '#06070A'} radius={20} bg={ dark ? '#141414' : '#FFFFFF'} p={{ base: '20 15 25', md: '25 25 40'}} ta='center' bd={ dark ? '1px solid #575757' : '0'} style={{ borderRadius: '4px', boxShadow: '0px 3px 6px #00000029', borderBottom: '4px solid #2BAA9B !important' }}>
                                 <Image src='/assets/ic_honest.png' w={{base: 60, md: 100}} h={{base: 60, md: 100}} mx={'auto'} mb={20} />
                                 <Title order={4} fz={{base: 20, md: 24}} lh={1.3} mb={'xs'}>
                                     Be Honest

@@ -6,7 +6,7 @@
   .header {
     height: rem(500px);
     padding-top: var(--mantine-spacing-md);
-    background-image: light-dark(linear-gradient(45deg, #6dbffa, #20c1f2),linear-gradient(135deg, #48c8ba, #64bdff));
+    background-image: light-dark(linear-gradient(45deg, #42b3a6, #017e70),linear-gradient(45deg, #42b3a6, #017e70));
     background-size: cover;
     display: flex;
     align-items: flex-end;

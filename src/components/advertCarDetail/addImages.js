@@ -344,7 +344,7 @@ const AddImages = ({ dark, carData }, props) => {
                             showNav={false}
                         />
                         <Group gap={10} justify='center' pos='relative'>
-                            <IconPhoto color='#3CDFCD' size={30} />
+                            <IconPhoto color='#2BAA9B' size={30} />
                             <Text c='fff' fz={24} style={{ textDecoration: 'underline' }}>
                                 Upload image
                             </Text>
@@ -398,7 +398,7 @@ const AddImages = ({ dark, carData }, props) => {
                             showNav={false}
                         />
                         <Group gap={10} justify='center' pos='relative'>
-                            <IconPhoto color='#3CDFCD' size={30} />
+                            <IconPhoto color='#2BAA9B' size={30} />
                             <Text c='fff' fz={24} style={{ textDecoration: 'underline' }}>
                                 Upload image
                             </Text>
@@ -468,7 +468,7 @@ const AddImages = ({ dark, carData }, props) => {
                             showNav={false}
                         />
                         <Group gap={10} justify='center' pos='relative'>
-                            <IconPhoto color='#3CDFCD' size={30} />
+                            <IconPhoto color='#2BAA9B' size={30} />
                             <Text c='fff' fz={24} style={{ textDecoration: 'underline' }}>
                                 Upload image
                             </Text>
@@ -505,7 +505,7 @@ const AddImages = ({ dark, carData }, props) => {
                 <Title order={2} fz={{ base: 32, sm: 40, lg: 45 }} mb={{ base: 25, md: 50 }}>Add Images</Title>
                 <Flex wrap={'wrap'} gap={{ base: '10', md: 'xl' }}>
                     <Button
-                        variant='outline' color='#3CDFCD' c={dark ? '#fff' : '#000'} size='lg' radius='xl'
+                        variant='outline' color='#2BAA9B' c={dark ? '#fff' : '#000'} size='lg' radius='xl'
                         leftSection={
                             <Image src='/assets/ic_imge_group.svg' w={25} />
                         }
@@ -513,7 +513,7 @@ const AddImages = ({ dark, carData }, props) => {
                     >
                         Exterior
                     </Button>
-                    <Button variant='outline' color='#3CDFCD' c={dark ? '#fff' : '#000'} size='lg' radius='xl'
+                    <Button variant='outline' color='#2BAA9B' c={dark ? '#fff' : '#000'} size='lg' radius='xl'
                         leftSection={
                             <Image src='/assets/ic_imge_group.svg' w={25} />
                         }
@@ -521,7 +521,7 @@ const AddImages = ({ dark, carData }, props) => {
                     >
                         Interior
                     </Button>
-                    <Button variant='outline' color='#3CDFCD' c={dark ? '#fff' : '#000'} size='lg' radius='xl'
+                    <Button variant='outline' color='#2BAA9B' c={dark ? '#fff' : '#000'} size='lg' radius='xl'
                         leftSection={
                             <Image src='/assets/ic_imge_group.svg' w={25} />
                         }

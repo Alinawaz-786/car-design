@@ -46,7 +46,7 @@ const AdvertCarDetail = ({ carId }) => {
             <Loader />
         </Group>
             :
-            <MantineProvider defaultColorScheme="dark" theme={theme}>
+            <MantineProvider forceColorScheme="light" theme={theme}>
                 <section>
                     <Banner dark={dark} carData={carData} />
                 </section>

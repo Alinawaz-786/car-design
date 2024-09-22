@@ -314,7 +314,7 @@ function CarHeader({
                   }}
                   thousandSeparator=","
                   step={bidDiff}
-                  leftSection={<IconPremiumRights color="#3CDFCD" />}
+                  leftSection={<IconPremiumRights color="#2BAA9B" />}
                   rightSectionPointerEvents="none"
                   radius="lg"
                   clampBehavior="strict"
@@ -398,7 +398,7 @@ function CarHeader({
               <Button
                 size="md"
                 radius="lg"
-                color="#3CDFCD"
+                color="#2BAA9B"
                 variant="outline"
                 onClick={() => {
                   if (!userService?.userValue?.id) {
@@ -412,7 +412,7 @@ function CarHeader({
                 }}
                 disabled={car?.bidPrice > car?.price || car?.status != "LIVE"}
               >
-                <Text mx="lg" color="#3CDFCD" fw={500}>
+                <Text mx="lg" color="#2BAA9B" fw={500}>
                   Buy it now
                 </Text>
                 <IconPremiumRights /> {currencyFormater(car?.price)}
@@ -605,7 +605,7 @@ function CarHeader({
             <Divider my="md" />
             <Box px="lg">
               <NavLink
-                color="#3CDFCD"
+                color="#2BAA9B"
                 my="md"
                 href="/delivery"
                 target="_blank"
@@ -614,7 +614,7 @@ function CarHeader({
                 active
               />
               <NavLink
-                color="#3CDFCD"
+                color="#2BAA9B"
                 my="md"
                 href="/return"
                 target="_blank"
@@ -623,7 +623,7 @@ function CarHeader({
                 active
               />
               <NavLink
-                color="#3CDFCD"
+                color="#2BAA9B"
                 my="md"
                 href="/warranty"
                 target="_blank"
@@ -632,7 +632,7 @@ function CarHeader({
                 active
               />
               <NavLink
-                color="#3CDFCD"
+                color="#2BAA9B"
                 my="md"
                 href="/inspection"
                 label="299 Points Inspection"

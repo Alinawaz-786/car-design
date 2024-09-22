@@ -31,7 +31,7 @@ const createAdvert = () => {
         setDark(colorScheme === "dark");
     }, [colorScheme]);
     return (
-        <MantineProvider defaultColorScheme="dark" theme={theme}>
+        <MantineProvider forceColorScheme="light" theme={theme}>
             <MetaDecorator
                 title="Sell your car with Trade Dept | Trade Dept"
             />

@@ -8,7 +8,7 @@ export function FeaturesCards() {
       <feature.icon
         style={{ width: rem(50), height: rem(50) }}
         stroke={2}
-        color="#3CDFCD"
+        color="#2BAA9B"
       />
       <Text fz="lg" fw={500} className={classes.cardTitle} mt="md">
         {feature.title}

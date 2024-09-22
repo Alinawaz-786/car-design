@@ -70,14 +70,14 @@ export default function Header({ defaultButtonLabel }) {
       : "/cex-simple-logo.png";
   // (dark ? "/cex-simple-logo.png" : "/cex-simple-logo.png")
   const searchRef = useRef(null); // Reference to the input element
-   const searchData=()=>{
-	  if(searchValue.length>0){
-		    router.push({
-      pathname: 'auction',
-      query: { ...router.query, searchCarName: searchValue },
-    });
-	  }
-   }
+  const searchData = () => {
+    if (searchValue.length > 0) {
+      router.push({
+        pathname: 'auction',
+        query: { ...router.query, searchCarName: searchValue },
+      });
+    }
+  }
   const clearSearch = () => {
     if (searchRef.current) {
       searchRef.current.value = ''; // Clear the input value directly
@@ -131,7 +131,7 @@ export default function Header({ defaultButtonLabel }) {
                       // onClick={() => setSearchValue("")}
                       style={{ display: searchRef.current?.value ? undefined : "none" }}
                       // me={62}
-                      c={"#3CDFCD"}
+                      c={"#2BAA9B"}
                     />
                   }
                   styles={(theme) => ({
@@ -171,8 +171,8 @@ export default function Header({ defaultButtonLabel }) {
               <Group justify="center" gap={0} hiddenFrom="md" wrap="nowrap">
                 <Button
                   variant="outline"
-                  color={"#3CDFCD"}
-                  c={dark ? "#fff": '#01D1B9'}
+                  color={"#2BAA9B"}
+                  c={dark ? "#fff" : '#01D1B9'}
                   px={12}
                   radius="xl"
                   onClick={() => {
@@ -208,16 +208,16 @@ export default function Header({ defaultButtonLabel }) {
                   </Link>
                 ))}
                 <Group visibleFrom="md" ml={10} wrap="nowrap">
-                  <Button
+                  {/*<Button
                     component={Link}
                     href="/create-advert#advertising_Price"
                     variant="outline"
-                    color="#3CDFCD"
-                    c={dark ? "#fff" : "#3CDFCD"}
+                    color="#2BAA9B"
+                    c={dark ? "#fff" : "#2BAA9B"}
                     radius="xl"
                   >
                     Sell Your Car
-                  </Button>
+                  </Button>*/}
                   <Button
                     c={"#000"}
                     radius="xl"
@@ -230,26 +230,26 @@ export default function Header({ defaultButtonLabel }) {
                   >
                     {defaultButtonLabel}
                   </Button>
-                  <ActionIcon
-										variant="outline"
-										color={dark ? 'yellow' : 'ocean-blue'}
-										onClick={() => toggleColorScheme()}
-										title="Toggle color scheme"
-									>
-										{dark ? <IconSun size={16} /> : <IconMoonStars size={16} />}
-									</ActionIcon>
+                  {/*<ActionIcon
+                    variant="outline"
+                    color={dark ? 'yellow' : 'ocean-blue'}
+                    onClick={() => toggleColorScheme()}
+                    title="Toggle color scheme"
+                  >
+                    {dark ? <IconSun size={16} /> : <IconMoonStars size={16} />}
+                  </ActionIcon>*/}
                 </Group>
               </Flex>
 
-              <ActionIcon
-								variant="outline"
-								color={dark ? 'yellow' : 'ocean-blue'}
-								onClick={() => toggleColorScheme()}
-								title="Toggle color scheme"
-								hiddenFrom="md"
-							>
-								{dark ? <IconSun size={16} /> : <IconMoonStars size={16} />}
-							</ActionIcon>
+              {/*<ActionIcon
+                variant="outline"
+                color={dark ? 'yellow' : 'ocean-blue'}
+                onClick={() => toggleColorScheme()}
+                title="Toggle color scheme"
+                hiddenFrom="md"
+              >
+                {dark ? <IconSun size={16} /> : <IconMoonStars size={16} />}
+              </ActionIcon>*/}
             </Group>
           </Group>
         </Container>

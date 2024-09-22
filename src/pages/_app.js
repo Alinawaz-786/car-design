@@ -41,7 +41,7 @@ const theme = createTheme({
 export default function App({ Component, pageProps }) {
   return (
     // <Suspense fallback={<div>Loading...</div>}>
-      <MantineProvider defaultColorScheme="dark" theme={theme}>
+      <MantineProvider forceColorScheme="light" theme={theme}>
         <Provider store={store}>
           <Elements stripe={stripePromise} >
             <Notifications position="top-right" zIndex={2000} autoClose={3000} />

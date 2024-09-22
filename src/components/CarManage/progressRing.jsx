@@ -7,7 +7,7 @@ const ProgressRing = (
         <Box className='progress-ring' align="center">
             <RingProgress
                 size={200}
-                sections={[{ value: percent, color: '#3CDFCD' }]}
+                sections={[{ value: percent, color: '#2BAA9B' }]}
                 label={
                     <>
                         <Flex align="center" justify="center" direction="column" px="xs" className='progress-inside'>

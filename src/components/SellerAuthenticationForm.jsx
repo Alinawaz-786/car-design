@@ -417,7 +417,7 @@ function SignUpForm({ referalCode, email, fullName }) {
               pt={{ base: "50px", md: "120px" }}
               px={{ base: "30px", sm: "50px" }}
               pb={{ base: "50px", md: "80px" }}
-              bg="linear-gradient(180deg, #3CDFCD 0%, #272B3D 100%, #D6D6D6 100%)"
+              bg="linear-gradient(180deg, #2BAA9B 0%, #272B3D 100%, #D6D6D6 100%)"
             >
               <Box maw={{ base: "400px", md: "100%" }} m="0 auto">
                 {/* <Image src="/assets/send-mail.png" alt="image" /> */}
@@ -535,7 +535,7 @@ function SignUpForm({ referalCode, email, fullName }) {
                     }
                     error={form.errors.terms}
                   />
-                  <Anchor href="/terms-and-condition" target="_blank" c='#3CDFCD'>terms and conditions</Anchor>
+                  <Anchor href="/terms-and-condition" target="_blank" c='#2BAA9B'>terms and conditions</Anchor>
                 </Group>
                 <Text c="dimmed">
                   Please check your inbox/spam for an email and enter the 4-digit code sent to it

@@ -46,7 +46,7 @@ const ContactUs = () => {
         // Submit form data (e.g., send to API)
     };
     return (
-        <MantineProvider defaultColorScheme='dark'>
+        <MantineProvider forceColorScheme="light">
             <Container size='lg' py={{ base: '60px', sm: '80px' }}>
                 <Title order={1} mb='50' ta='center'>Contact Us</Title>
                 <Grid>

@@ -34,7 +34,7 @@ const AdvertCarDetail = () => {
         getCarById()
     },[])
     return (
-    <MantineProvider defaultColorScheme="dark" theme={theme}>
+    <MantineProvider forceColorScheme="light" theme={theme}>
         <section>
             <Banner dark={dark} />
         </section>

@@ -11,7 +11,7 @@ const SignUp = ({ dark }) => {
                         <Title order={4} fz={{ base: 22, sm: 24, md: 28 }} mb={{ base: 5, md: 15 }}>
                             Send me great Auto Trader offers and the latest vehicle reviews.
                         </Title>
-                        <Text>By signing up, you agree to receive marketing emails in accordance with our <Link href='/terms-and-condition' style={{ color: '#3CDFCD' }}>privacy notice</Link>. You can unsubscribe at any time.</Text>
+                        <Text>By signing up, you agree to receive marketing emails in accordance with our <Link href='/terms-and-condition' style={{ color: '#2BAA9B' }}>privacy notice</Link>. You can unsubscribe at any time.</Text>
                     </Grid.Col>
                     <Grid.Col span={{ base: 12, md: 6 }}>
                         <Box pos='relative' className='signup-input'>

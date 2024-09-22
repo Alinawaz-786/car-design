@@ -616,14 +616,14 @@ const Overview = ({ dark, carData }) => {
 							</Input.Wrapper>
 						</Grid.Col>
 						<Grid.Col span={12} mt={{ base: 'sm', sm: 'lg' }} ta='center'>
-							<Button w={120} color='#3CDFCD' c='#070000' size='md' radius='xl' type='submit' loading={loader}>
+							<Button w={120} color='#2BAA9B' c='#070000' size='md' radius='xl' type='submit' loading={loader}>
 								Save
 							</Button>
 						</Grid.Col>
 					</Grid> */}
 					<Grid>
 					<Grid.Col span={12} mt={{ base: 'sm', sm: 'lg' }} ta='center'>
-						<Button w={120} color='#3CDFCD' c='#070000' size='md' radius='xl' type='submit' loading={loader}>
+						<Button w={120} color='#2BAA9B' c='#070000' size='md' radius='xl' type='submit' loading={loader}>
 							Save
 						</Button>
 					</Grid.Col>
@@ -635,14 +635,14 @@ const Overview = ({ dark, carData }) => {
 				<Box w={'45%'} ml='auto' pos={'absolute'} right={20} top={{ base: '0', sm: '-50px' }}>
 					<Image src='/assets/multi-cars.png' />
 				</Box>
-				<Title order={2} fz={{ base: 35, sm: 40, lg: 45 }} mb={{ base: '10', md: '30' }} c={'#3CDFCD'}>
+				<Title order={2} fz={{ base: 35, sm: 40, lg: 45 }} mb={{ base: '10', md: '30' }} c={'#2BAA9B'}>
 					Overview
 				</Title>
 				<Group align='center' mb={{ base: '30', md: '40' }}>
 					<Text component='span' fz={{ base: '35', sm: '45', md: '60' }} fw='600'>
 						{currencyFormater(form.values?.mileage)} Km
 					</Text>
-					{/* <Button variant='outline' color='#3CDFCD' c={dark ? '#fff`' : '#000'} size='md' ml={{ base: '0', sm: '20'}} radius='xl'
+					{/* <Button variant='outline' color='#2BAA9B' c={dark ? '#fff`' : '#000'} size='md' ml={{ base: '0', sm: '20'}} radius='xl'
 						leftSection={
 							<IconEdit width={20} />
 						}
@@ -655,38 +655,38 @@ const Overview = ({ dark, carData }) => {
 						<Title order={5} fz={{ base: '20', md: '24' }} fw={500}>Fuel Type</Title>
 						<Text component='span' fz={{ base: '16', md: '20' }}>{form.values?.fuelType}</Text>
 					</Stack>
-					<Divider orientation="vertical" maw={1} color='#3CDFCD' />
+					<Divider orientation="vertical" maw={1} color='#2BAA9B' />
 					<Stack gap={{ base: 'sm', md: 'lg' }} align='center'>
 						<Title order={5} fz={{ base: '20', md: '24' }} fw={500}>Body Type</Title>
 						<Text component='span' fz={{ base: '16', md: '20' }}>{form.values?.bodyStyle}</Text>
 					</Stack>
-					<Divider orientation="vertical" maw={1} color='#3CDFCD' />
+					<Divider orientation="vertical" maw={1} color='#2BAA9B' />
 					<Stack gap={{ base: 'sm', md: 'lg' }} align='center'>
 						<Title order={5} fz={{ base: '20', md: '24' }} fw={500}>Engine</Title>
 						<Text component='span' fz={{ base: '16', md: '20' }}>{form.values?.engine}</Text>
 					</Stack>
-					<Divider orientation="vertical" maw={1} color='#3CDFCD' />
+					<Divider orientation="vertical" maw={1} color='#2BAA9B' />
 					<Stack gap={{ base: 'sm', md: 'lg' }} align='center'>
 						<Title order={5} fz={{ base: '20', md: '24' }} fw={500}>Transmission</Title>
 						<Text component='span' fz={{ base: '16', md: '20' }}>{form.values?.transmission}</Text>
 					</Stack>
 
-					<Divider orientation="vertical" maw={1} color='#3CDFCD' />
+					<Divider orientation="vertical" maw={1} color='#2BAA9B' />
 					<Stack gap={{ base: 'sm', md: 'lg' }} align='center'>
 						<Title order={5} fz={{ base: '20', md: '24' }} fw={500}>Doors</Title>
 						<Text component='span' fz={{ base: '16', md: '20' }}>{form.values?.doors}</Text>
 					</Stack>
-					<Divider orientation="vertical" maw={1} color='#3CDFCD' />
+					<Divider orientation="vertical" maw={1} color='#2BAA9B' />
 					<Stack gap={{ base: 'sm', md: 'lg' }} align='center'>
 						<Title order={5} fz={{ base: '20', md: '24' }} fw={500}>Seats</Title>
 						<Text component='span' fz={{ base: '16', md: '20' }}>{form.values?.seats}</Text>
 					</Stack>
-					<Divider orientation="vertical" maw={1} color='#3CDFCD' />
+					<Divider orientation="vertical" maw={1} color='#2BAA9B' />
 					<Stack gap={{ base: 'sm', md: 'lg' }} align='center'>
 						<Title order={5} fz={{ base: '20', md: '24' }} fw={500}>Owners</Title>
 						<Text component='span' fz={{ base: '16', md: '20' }}>{userService?.userValue?.firstName} {userService?.userValue?.lastName}</Text>
 					</Stack>
-					<Button variant='outline' color='#3CDFCD' c={dark ? '#fff' : '#000'} size='lg' radius='xl'
+					<Button variant='outline' color='#2BAA9B' c={dark ? '#fff' : '#000'} size='lg' radius='xl'
 						leftSection={
 							<IconEdit width={20} />
 						}
