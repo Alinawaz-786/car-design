@@ -893,7 +893,7 @@ module.exports = require("zlib");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/next","vendor-chunks/rxjs","vendor-chunks/@tabler","vendor-chunks/@swc","vendor-chunks/@mantine","vendor-chunks/react-phone-number-input"], () => (__webpack_exec__("./src/pages/_app.js")));
+var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/next","vendor-chunks/@swc","vendor-chunks/rxjs","vendor-chunks/@tabler","vendor-chunks/@mantine","vendor-chunks/react-phone-number-input"], () => (__webpack_exec__("./src/pages/_app.js")));
 module.exports = __webpack_exports__;
 
 })();

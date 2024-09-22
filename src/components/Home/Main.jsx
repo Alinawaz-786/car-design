@@ -72,7 +72,9 @@ export default function MainContent({ showForm, demoList }) {
               <Box mx="left" maw={1000}>
                 <Group direction="row" px="md" pb="md">
                   <Title order={1} fz={{ base: 24, sm: 32 }} c="white">Trade Department</Title>
-
+                  <Text fz={{ base: 18, sm: 18 }} lh="sm" style={{ color: "#ffffffcc" }}>
+                    Our full-service automotive marketplace is fueled by innovative technology to provide a superior experience.
+                  </Text>
                   {/* <ul className="auction-steps">
                     <li>
                       <IconUserPlus size={38} stroke={2.5} style={{ position: "absolute", left: 7 }} />
